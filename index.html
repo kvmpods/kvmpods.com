@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Coming Soon</title>
+    <!-- Include Tailwind CSS from CDN -->
+    <link
+      href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css"
+      rel="stylesheet"
+    />
+    <style>
+      .background-image {
+        background-image: url("/images/sci_fi_lab_by.jpg");
+        background-size: cover;
+        background-position: center;
+      }
+      .overlay {
+        background: rgba(0, 0, 0, 0.7); /* Black with 70% opacity */
+      }
+    </style>
+  </head>
+  <body
+    class="flex flex-col items-center justify-center min-h-screen bg-gray-900 text-white p-4"
+  >
+    <div class="absolute inset-0 z-0 background-image">
+      <div class="absolute inset-0 overlay"></div>
+    </div>
+
+    <div class="w-auto max-w-2xl text-center space-y-6 z-10">
+      <h1 class="text-6xl font-bold uppercase tracking-wide text-indigo-300">
+        Coming Soon
+      </h1>
+
+      <p class="text-center mt-6 text-xl px-4">
+        We're crafting the future of PaaS solutions. Imagine a platform where
+        deploying and hosting your applications — be it your own creations or
+        your favorite open source tools — is as simple as a few clicks, with all
+        the power and flexibility you need.
+      </p>
+
+      <p class="text-gray-400">
+        At this moment, the subscription feature is not available. Please check
+        back later for updates. Thank you for your understanding.
+      </p>
+    </div>
+  </body>
+</html>
